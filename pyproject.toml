@@ -1,0 +1,15 @@
+[project]
+name = "example-repo"
+version = "0.1.0"
+description = "Demo repository for testing"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dascore>=0.1.6",
+    "numpy>=2.2.5",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.7",
+]
